@@ -1,6 +1,8 @@
 <p align='center'><img src='https://i.postimg.cc/HWXLQH19/Karya-1-modified.png' height='150px' width='150px'>
 <h1 align='center'>kARYA(कार्य)</h1></p>
 
+### What is Karya ?
+Karya is a tool for kanban framework, Kanban is a popular framework used to implement agile and DevOps software development.
 
 ## Requirements:
 - Django >= 4.1.1 
