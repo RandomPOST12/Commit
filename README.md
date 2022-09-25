@@ -8,20 +8,11 @@
 
 
 ## Installation and SetUp
-
-```
-mkdir <name>
-cd <name>
-
-```
-```
-git clone https://github.com/Sankalpa-Acharya/Karya
-
-```
-```
-pip install -r requirements.txt
-
-```
+- Clone this repository ``` git clone https://github.com/Sankalpa-Acharya/Karya ```
+- Go inside the folder ``` cd Karya ```
+- Run: ``` pip install -r requirements.txt ```
+- Run: ``` python work/manage.py runserver ```
+- Visit this url in your browser ``` 127.0.0.1:8000 ``` 
 
 
 
