@@ -26,7 +26,7 @@ Karya is inspired from kanban, Kanban is a popular framework use to implement ag
 
 <p align='center'><img src='https://res.cloudinary.com/dwnigdgck/image/upload/v1664084026/personal/Karya/Screenshot_2022-09-24_200309_xomf1m.png' height='400px'></p>
 
-<p align='center'><img src='https://res.cloudinary.com/dwnigdgck/image/upload/v1664084027/personal/Karya/Screenshot_2022-09-24_204533_n89nam.png' height='400px'></p>
+<p align='center'><img src='https://res.cloudinary.com/dwnigdgck/image/upload/v1664088168/personal/Karya/Screenshot_2022-09-25_121215_plj7z8.png' height='400px'></p>
 
 <p align='center'><img src='https://res.cloudinary.com/dwnigdgck/image/upload/v1664084026/personal/Karya/Screenshot_2022-09-24_193626_acmzvd.png' height='400px'></p>
 
