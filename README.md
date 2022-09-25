@@ -3,8 +3,8 @@
 
 
 ## Requirements:
-- Django <= 4.1.1 
-- Python  <= 3.10.5
+- Django >= 4.1.1 
+- Python  >= 3.10.5
 
 
 ## Installation and Set-up
