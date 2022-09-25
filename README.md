@@ -7,7 +7,7 @@
 - Python  <= 3.10.5
 
 
-## Installation and SetUp
+## Installation and Set-up
 - Clone this repository ``` git clone https://github.com/Sankalpa-Acharya/Karya ```
 - Go inside the folder ``` cd Karya ```
 - Run: ``` pip install -r requirements.txt ```
