@@ -1,8 +1,8 @@
 <div align='center'
 <p align='center'><img src='https://i.postimg.cc/HWXLQH19/Karya-1-modified.png' height='150px' width='150px'>
 <h1 align='center'>kARYA(कार्य)</h1></p>
-[Video Demo](https://sankalpa.info.np)
 </div>
+[Video Demo](https://sankalpa.info.np)
 ### What is Karya ?
 Karya is inspired from kanban, Kanban is a popular framework use to implement agile and DevOps software development.
 
