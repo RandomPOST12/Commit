@@ -18,4 +18,4 @@
 
 ## Usage/Look
 
-<img src='https://res.cloudinary.com/dwnigdgck/image/upload/v1664084027/personal/Karya/Screenshot_2022-09-24_204145_dgfcrb.png' height='200px' width='200px'>
+<img src='https://res.cloudinary.com/dwnigdgck/image/upload/v1664084027/personal/Karya/Screenshot_2022-09-24_204145_dgfcrb.png'>
