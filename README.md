@@ -1,5 +1,5 @@
 <p align='center'><img src='https://i.postimg.cc/HWXLQH19/Karya-1-modified.png' height='150px' width='150px'>
-<h1 align='center'>kARYA</h1></p>
+<h1 align='center'>kARYA(कार्य)</h1></p>
 
 
 ## Requirements:
