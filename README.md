@@ -18,7 +18,7 @@
 
 ## Usage/Look
 
-<p align='center'><img src='https://res.cloudinary.com/dwnigdgck/image/upload/v1664084027/personal/Karya/Screenshot_2022-09-24_204145_dgfcrb.png' height='400px' width='400px'></p>
+<p align='center'><img src='https://res.cloudinary.com/dwnigdgck/image/upload/v1664084027/personal/Karya/Screenshot_2022-09-24_204145_dgfcrb.png' height='600px' width='400px'></p>
 
 ### Login or Singup
 <p align='center'><img src='https://res.cloudinary.com/dwnigdgck/image/upload/v1664084639/personal/Karya/Untitled_design_1_cbclij.png' height='400px'></p>
