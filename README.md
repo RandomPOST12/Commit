@@ -15,6 +15,7 @@
 - Visit this url in your browser ``` 127.0.0.1:8000 ``` 
 
 
+
 ## Usage/Look
 
-
+<img src='https://res.cloudinary.com/dwnigdgck/image/upload/v1664084027/personal/Karya/Screenshot_2022-09-24_204145_dgfcrb.png' height='200px' width='200px'>
