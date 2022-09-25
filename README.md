@@ -2,7 +2,7 @@
 <h1 align='center'>kARYA(कार्य)</h1></p>
 
 ### What is Karya ?
-Karya is inspired from kanban, Kanban is a popular framework used to implement agile and DevOps software development.
+Karya is inspired from kanban, Kanban is a popular framework use to implement agile and DevOps software development.
 
 ## Requirements:
 - Django >= 4.1.1 
