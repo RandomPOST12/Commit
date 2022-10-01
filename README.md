@@ -1,3 +1,4 @@
+<div align='center'>
 <img src="http://mypy-lang.org/static/mypy_light.svg" alt="mypy logo" width="300px"/>
 
 # pep484 stubs for Django
@@ -6,7 +7,7 @@
 [![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
 [![Gitter](https://badges.gitter.im/mypy-django/Lobby.svg)](https://gitter.im/mypy-django/Lobby)
 [![StackOverflow](https://img.shields.io/stackexchange/stackoverflow/t/django-stubs)](https://stackoverflow.com/questions/tagged/django-stubs)
-
+</div>
 
 This package contains [type stubs](https://www.python.org/dev/peps/pep-0561/) and a custom mypy plugin to provide more precise static types and type inference for Django framework. Django uses some Python "magic" that makes having precise types for some code patterns problematic. This is why we need this project. The final goal is to be able to get precise types for most common patterns.
 
