@@ -70,9 +70,9 @@ We rely on different `django` and `mypy` versions:
 
 ## FAQ
 
-### Is this an official Django project?
+**Q:** Is this an official Django project?
 
-No, it is not. We are independent from Django at the moment.
+**A:** No, it is not. We are independent from Django at the moment.
 There's a [proposal](https://github.com/django/deps/pull/65) to merge our project into the Django itself.
 You can show your support by liking the PR.
 
