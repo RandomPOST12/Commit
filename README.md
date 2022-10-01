@@ -70,30 +70,33 @@ We rely on different `django` and `mypy` versions:
 
 ## FAQ
 
-**Q:** Is this an official Django project?
+**Question:** Is this an official Django project?
 
-**A:** No, it is not. We are independent from Django at the moment.
+**Answer:** No, it is not. We are independent from Django at the moment.
 There's a [proposal](https://github.com/django/deps/pull/65) to merge our project into the Django itself.
 You can show your support by liking the PR.
 
-### Is it safe to use this in production?
 
-Yes, it is! This project does not affect your runtime at all.
+
+**Question:** Is it safe to use this in production?
+
+**Answer:** Yes, it is! This project does not affect your runtime at all.
 It only affects `mypy` type checking process.
-
 But, it does not make any sense to use this project without `mypy`.
 
-### mypy crashes when I run it with this plugin installed
 
-The current implementation uses Django's runtime to extract information about models, so it might crash if your installed apps or `models.py` are broken.
+
+**Question:** mypy crashes when I run it with this plugin installed
+
+**Answer:** The current implementation uses Django's runtime to extract information about models, so it might crash if your installed apps or `models.py` are broken.
 
 In other words, if your `manage.py runserver` crashes, mypy will crash too.
 You can also run `mypy` with [`--tb`](https://mypy.readthedocs.io/en/stable/command_line.html#cmdoption-mypy-show-traceback)
 option to get extra information about the error.
 
-### I cannot use QuerySet or Manager with type annotations
+**Question:** I cannot use QuerySet or Manager with type annotations
 
-You can get a `TypeError: 'type' object is not subscriptable`
+**Answer:** You can get a `TypeError: 'type' object is not subscriptable`
 when you will try to use `QuerySet[MyModel]`, `Manager[MyModel]` or some other Django-based Generic types.
 
 This happens because these Django classes do not support [`__class_getitem__`](https://www.python.org/dev/peps/pep-0560/#class-getitem) magic method in runtime.
