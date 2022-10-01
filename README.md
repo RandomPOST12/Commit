@@ -105,7 +105,7 @@ when you will try to use `QuerySet[MyModel]`, `Manager[MyModel]` or some other D
 
 This happens because these Django classes do not support [`__class_getitem__`](https://www.python.org/dev/peps/pep-0560/#class-getitem) magic method in runtime.
 
-1. You can go with our [`django_stubs_ext`](https://github.com/typeddjango/django-stubs/tree/master/django_stubs_ext) helper, that patches all the types we use as Generic in django.
+- You can go with our [`django_stubs_ext`](https://github.com/typeddjango/django-stubs/tree/master/django_stubs_ext) helper, that patches all the types we use as Generic in django.
 
    Install it:
 
@@ -125,7 +125,7 @@ This happens because these Django classes do not support [`__class_getitem__`](h
 
    You can add extra types to patch with `django_stubs_ext.monkeypatch(extra_classes=[YourDesiredType])`
 
-2. You can use strings instead: `'QuerySet[MyModel]'` and `'Manager[MyModel]'`, this way it will work as a type for `mypy` and as a regular `str` in runtime.
+- You can use strings instead: `'QuerySet[MyModel]'` and `'Manager[MyModel]'`, this way it will work as a type for `mypy` and as a regular `str` in runtime.
 
 ##
 
