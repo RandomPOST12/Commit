@@ -125,6 +125,8 @@ This happens because these Django classes do not support [`__class_getitem__`](h
 
 2. You can use strings instead: `'QuerySet[MyModel]'` and `'Manager[MyModel]'`, this way it will work as a type for `mypy` and as a regular `str` in runtime.
 
+##
+
 **Question:** How can I create a HttpRequest that's guaranteed to have an authenticated user?
 
 **Answer:** Django's built in [`HttpRequest`](https://docs.djangoproject.com/en/4.0/ref/request-response/#django.http.HttpRequest) has the attribute `user` that resolves to the type
