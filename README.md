@@ -91,7 +91,6 @@ But, it does not make any sense to use this project without `mypy`.
 ### **Question:** mypy crashes when I run it with this plugin installed
 
 **Answer:** The current implementation uses Django's runtime to extract information about models, so it might crash if your installed apps or `models.py` are broken.
-
 In other words, if your `manage.py runserver` crashes, mypy will crash too.
 You can also run `mypy` with [`--tb`](https://mypy.readthedocs.io/en/stable/command_line.html#cmdoption-mypy-show-traceback)
 option to get extra information about the error.
@@ -102,7 +101,6 @@ option to get extra information about the error.
 
 **Answer:** You can get a `TypeError: 'type' object is not subscriptable`
 when you will try to use `QuerySet[MyModel]`, `Manager[MyModel]` or some other Django-based Generic types.
-
 This happens because these Django classes do not support [`__class_getitem__`](https://www.python.org/dev/peps/pep-0560/#class-getitem) magic method in runtime.
 
 - You can go with our [`django_stubs_ext`](https://github.com/typeddjango/django-stubs/tree/master/django_stubs_ext) helper, that patches all the types we use as Generic in django.
