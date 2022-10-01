@@ -68,7 +68,7 @@ We rely on different `django` and `mypy` versions:
 | 0.12.x       | old semantic analyzer (<0.711), dmypy support | 2.1.x | ^3.6
 
 
-## FAQ
+# FAQ
 
 ### **Question:** Is this an official Django project?
 
@@ -78,7 +78,7 @@ You can show your support by liking the PR.
 
 ##
 
-**Question:** Is it safe to use this in production?
+### **Question:** Is it safe to use this in production?
 
 **Answer:** Yes, it is! This project does not affect your runtime at all.
 It only affects `mypy` type checking process.
@@ -86,7 +86,7 @@ But, it does not make any sense to use this project without `mypy`.
 
 ##
 
-**Question:** mypy crashes when I run it with this plugin installed
+### **Question:** mypy crashes when I run it with this plugin installed
 
 **Answer:** The current implementation uses Django's runtime to extract information about models, so it might crash if your installed apps or `models.py` are broken.
 
@@ -96,7 +96,7 @@ option to get extra information about the error.
 
 ##
 
-**Question:** I cannot use QuerySet or Manager with type annotations
+### **Question:** I cannot use QuerySet or Manager with type annotations
 
 **Answer:** You can get a `TypeError: 'type' object is not subscriptable`
 when you will try to use `QuerySet[MyModel]`, `Manager[MyModel]` or some other Django-based Generic types.
@@ -127,7 +127,7 @@ This happens because these Django classes do not support [`__class_getitem__`](h
 
 ##
 
-**Question:** How can I create a HttpRequest that's guaranteed to have an authenticated user?
+### **Question:** How can I create a HttpRequest that's guaranteed to have an authenticated user?
 
 **Answer:** Django's built in [`HttpRequest`](https://docs.djangoproject.com/en/4.0/ref/request-response/#django.http.HttpRequest) has the attribute `user` that resolves to the type
 
@@ -151,7 +151,7 @@ And then use `AuthenticatedHttpRequest` instead of the standard `HttpRequest` fo
 
 ##
 
-**Question:** My QuerySet methods are returning Any rather than my Model
+### **Question:** My QuerySet methods are returning Any rather than my Model
 
 **Answer:** If you are using `MyQuerySet.as_manager()`:
 
@@ -201,7 +201,7 @@ def use_my_model() -> int:
 
 ##
 
-**Question:** How do I annotate cases where I called QuerySet.annotate?
+### **Question:** How do I annotate cases where I called QuerySet.annotate?
 
 **Answer:** Django-stubs provides a special type, `django_stubs_ext.WithAnnotations[Model]`, which indicates that the `Model` has
 been annotated, meaning it allows getting/setting extra attributes on the model instance.
