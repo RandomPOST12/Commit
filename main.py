@@ -85,5 +85,5 @@ def main():
         os.remove(filename)
     except:
         pass
-if __name__ == "__main__":
-    main()
+
+main()
